@@ -1,0 +1,30 @@
+{
+    "name": "aphproach/enumerations",
+    "description": "php enumerations implementation.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "ext-dom": "*",
+        "ext-mbstring": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Romano Schoonheim",
+            "email": "romano@romanoschoonheim.nl"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aphproach\\Enumerations\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aphproach\\Enumerations\\Tests\\": "tests/"
+        }
+    }
+}
