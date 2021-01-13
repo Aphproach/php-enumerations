@@ -2,7 +2,6 @@
 
 namespace Aphproach\Enumerations;
 
-use Aphproach\Enumerations\Interfaces\RenderableInterface;
 use ReflectionClass;
 use ReflectionClassConstant;
 
